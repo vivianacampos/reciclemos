@@ -1,0 +1,100 @@
+﻿@{
+    ViewBag.Title = "Re Ciclemos";
+}
+
+<!--Carrusel-->
+<style>
+    .transp {
+        opacity: 0.9;
+        filter: opacity(90%);
+    }
+    .barra {
+        background-color: #28b5b5;
+    }
+
+</style>
+<div class="container-fluid p-0">
+    <div id="miCarrusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="~/Imagenes/clasificados.jpg" class="d-block w-100 transp" alt="" width="900" height="700">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Imagenes/materiales.jpeg" class="d-block w-100 transp" alt="" width="900" height="700">
+            </div>
+            <div class="carousel-item">
+                <img src="~/Imagenes/PersonaConCaja.jpg" class="d-block w-100 transp" alt="" width="900" height="700">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#miCarrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#miCarrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Seccion media-->
+
+    <div class="container-xl">
+        <div class="row g-0 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div class="feature-icon barra bg-gradient">
+                    <svg class="bi" width="1em" height="1em"></svg>
+                </div>
+
+                <h2><font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Noticias</font>
+                    </font>
+                </h2>
+                <p>
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Párrafo de texto debajo del encabezado para explicar el encabezado. </font>
+                    <font style="vertical-align: inherit;">Lo agregaremos con otra oración y probablemente seguiremos hasta que nos quedemos sin palabras.</font>
+                    </font>
+                </p>
+                <a href="#" class="icon-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            Seguir Leyendo...
+                        </font>
+                    </font><svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon barra  bg-gradient">
+                    <svg class="bi" width="1em" height="1em"></svg>
+                </div>
+                <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Talleres</font></font></h2>
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del encabezado para explicar el encabezado. </font><font style="vertical-align: inherit;">Lo agregaremos con otra oración y probablemente seguiremos hasta que nos quedemos sin palabras.</font></font></p>
+                <a href="#" class="icon-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            Ir a Talleres
+                        </font>
+                    </font><svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon barra  bg-gradient">
+                    <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+                </div>
+                <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">¿Cómo Reciclar?</font></font></h2>
+                <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Párrafo de texto debajo del encabezado para explicar el encabezado. </font><font style="vertical-align: inherit;">Lo agregaremos con otra oración y probablemente seguiremos hasta que nos quedemos sin palabras.</font></font></p>
+                <a href="#" class="icon-link">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">
+                            Ir a reciclar
+                        </font>
+                    </font><svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+

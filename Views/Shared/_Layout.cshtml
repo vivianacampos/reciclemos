@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
+    <link rel="stylesheet" href="~/Font-awsome/css/all.min.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+
+</head>
+<body>
+    <!--Navbar-->
+    <style>
+        .colorNav {
+            background-color: #4b778d;
+            //opacity: 0.1;
+            //filter:opacity(20%);
+           
+        }
+        .colorFooter{
+            background-color: #8fd9a8;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark colorNav p-0">
+
+        <div class="collapse navbar-collapse p-0" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                <li>
+                    <a><img src="~/Imagenes/reciclemos.png" width="140" height="79" /></a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mb-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Enlaces</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Materiales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Talleres</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-user"></i></a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a class="nav-link active " aria-current="page" href="#">Ingresar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-0">
+
+        @RenderBody()
+        <footer class="text-center colorFooter p-2">
+            
+            <p class="text-center"><img src="~/Imagenes/RE2.png" width="50" height="50" />&copy; @DateTime.Now.Year  Re-Ciclemos</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script>
+            var myCarousel = document.querySelector('#miCarrusel')
+            var carousel = new bootstrap.Carousel(myCarousel)
+        </script>
+    </div>
+   
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
