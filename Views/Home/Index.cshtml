@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Re Ciclemos";
+    ViewBag.Title = "ReCiclemos";
 }
 
 <!--Carrusel-->
@@ -11,6 +11,10 @@
     .barra {
         background-color: #28b5b5;
     }
+    .espacio{
+        padding: 1rem;
+    }
+
 
 </style>
 <div class="container-fluid p-0">
@@ -38,42 +42,51 @@
 
     <!--Seccion media-->
 
+
     <div class="container-xl">
+        
+
         <div class="row g-0 py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
                 <div class="feature-icon barra bg-gradient">
                     <svg class="bi" width="1em" height="1em"></svg>
                 </div>
+                <!--Card-->
+                <h2 class="espacio">Noticias</h2>
+                <!--Video-->
+                <div class="card" style="width: 21.8rem;">
+                    <iframe width="346" height="200" src="https://www.youtube.com/embed/qDbxCUOyLWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                    <div class="card-body">
+                        <p class="card-text"><a>#Reportajes T13</a></p>
+                    </div>
+                </div>
 
-                <h2>Noticias</h2>
-                <p>Párrafo de texto debajo del encabezado para explicar el encabezado.
-                    Lo agregaremos con otra oración y probablemente seguiremos hasta que nos quedemos sin palabras.
-                </p>
-                <a href="#" class="icon-link">
-                    Seguir Leyendo...
-                </a>
             </div>
             <div class="feature col">
                 <div class="feature-icon barra  bg-gradient">
                     <svg class="bi" width="1em" height="1em"></svg>
                 </div>
-                <h2>Talleres</h2>
-                <p>Párrafo de texto debajo del encabezado para explicar el encabezado.
-                Lo agregaremos con otra oración y probablemente seguiremos hasta que nos quedemos sin palabras.</p>
-                <a href="#" class="icon-link">
-                    Ir a Talleres
-                </a>
+                <h2 class="espacio">Talleres</h2>
+                <div class="card" style="width: 21.8rem;">
+                    <iframe width="346" height="200" src="https://www.youtube.com/embed/xS_EPS2ZSfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <p class="card-text">Ministerio del Medio Ambiente</p>
+                    </div>
+                </div>
+
             </div>
             <div class="feature col">
                 <div class="feature-icon barra  bg-gradient">
                     <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
                 </div>
-                <h2>¿Cómo Reciclar?</h2>
-                <p>Párrafo de texto debajo del encabezado para explicar el encabezado.
-                Lo agregaremos con otra oración y probablemente seguiremos hasta que nos quedemos sin palabras.</p>
-                <a href="#" class="icon-link">
-                    Ir a reciclar
-                </a>
+                <h2 class="espacio">¿Cómo Reciclar?</h2>
+                <div class="card" style="width: 21.8rem;">
+                    <iframe width="346" height="200" src="https://www.youtube.com/embed/YfUMqsOHDeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="card-body">
+                        <p class="card-text">Ministerio del Medio Ambiente</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

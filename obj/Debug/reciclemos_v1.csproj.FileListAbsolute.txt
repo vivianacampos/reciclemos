@@ -79,8 +79,8 @@ C:\Users\Artsk\source\repos\reciclemos_v1\bin\es\System.Web.Razor.resources.dll
 C:\Users\Artsk\source\repos\reciclemos_v1\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Artsk\source\repos\reciclemos_v1\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Artsk\source\repos\reciclemos_v1\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\Artsk\source\repos\reciclemos_v1\obj\Debug\reciclemos_v1.csprojAssemblyReference.cache
 C:\Users\Artsk\source\repos\reciclemos_v1\obj\Debug\reciclemos_v1.csproj.CoreCompileInputs.cache
 C:\Users\Artsk\source\repos\reciclemos_v1\obj\Debug\reciclemos_v1.csproj.CopyComplete
 C:\Users\Artsk\source\repos\reciclemos_v1\obj\Debug\reciclemos_v1.dll
 C:\Users\Artsk\source\repos\reciclemos_v1\obj\Debug\reciclemos_v1.pdb
+C:\Users\Artsk\source\repos\reciclemos_v1\obj\Debug\reciclemos_v1.csprojAssemblyReference.cache
